@@ -6,4 +6,3 @@ USER jenkins
 RUN echo 2.0 > /usr/share/jenkins/ref/jenkins.install.UpgradeWizard.state
 RUN echo 2.0 > /usr/share/jenkins/ref/jenkins.install.InstallUtil.lastExecVersion
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
-COPY --chown=jenkins:jenkins config_jenkins /var/jenkins_home
